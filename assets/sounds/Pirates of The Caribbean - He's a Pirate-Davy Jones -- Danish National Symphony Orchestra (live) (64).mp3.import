@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://csstnhwutxqte"
+path="res://.godot/imported/Pirates of The Caribbean - He's a Pirate-Davy Jones -- Danish National Symphony Orchestra (live) (64).mp3-c69c607f683ed94468efafd1a54a14d3.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/Pirates of The Caribbean - He's a Pirate-Davy Jones -- Danish National Symphony Orchestra (live) (64).mp3"
+dest_files=["res://.godot/imported/Pirates of The Caribbean - He's a Pirate-Davy Jones -- Danish National Symphony Orchestra (live) (64).mp3-c69c607f683ed94468efafd1a54a14d3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
