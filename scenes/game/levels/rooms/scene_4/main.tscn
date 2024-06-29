@@ -639,6 +639,6 @@ texture = ExtResource("22_1aruu")
 position = Vector2(201, 241)
 sprite_frames = SubResource("SpriteFrames_i2qcb")
 animation = &"colected"
-frame_progress = 0.0582959
+frame_progress = 0.0811125
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Cofre/Chest"]
