@@ -38,11 +38,7 @@ func _ready():
 	#_toggle_show()
 	HealthDashboard.visible = false
 	# Iniciamoa con las animaciones
-	_anim_water.play()
-	_anim_ship.play()
-	_anim_flag.play()
-	_parallax_1.play("parallax1")
-	_parallax_2.play_backwards("parallax1")
+
 	# Iniciar volumen de sonidos en base al valor de los "sliders"
 	_on_slider_ambient_value_changed(_slider_ambient.value)
 	_on_slider_effects_value_changed(_slider_effects.value)
