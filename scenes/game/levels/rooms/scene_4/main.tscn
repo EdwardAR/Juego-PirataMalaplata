@@ -329,7 +329,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Main" type="Node2D"]
+[node name="Main2" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_183um")

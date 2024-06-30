@@ -610,7 +610,6 @@ texture = ExtResource("36_g458l")
 [node name="31" type="Sprite2D" parent="Objects"]
 position = Vector2(1236, 540)
 rotation = -0.803375
-scale = Vector2(1, 1)
 texture = ExtResource("33_leo4a")
 
 [node name="32" type="Sprite2D" parent="Objects"]

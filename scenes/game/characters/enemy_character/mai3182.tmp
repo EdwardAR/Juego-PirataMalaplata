@@ -404,13 +404,13 @@ shape = SubResource("RectangleShape2D_q04ya")
 visible = false
 modulate = Color(0.137255, 0.423529, 0, 1)
 sprite_frames = SubResource("SpriteFrames_cwldb")
-animation = &"run"
+animation = &"fall"
 
 [node name="EffectsSword" type="AnimatedSprite2D" parent="."]
 z_index = 2
 position = Vector2(32, -1)
 sprite_frames = SubResource("SpriteFrames_isfec")
-animation = &"attack_2_effect"
+animation = &"idle"
 
 [node name="AreaSword" type="Area2D" parent="." groups=["hit"]]
 
