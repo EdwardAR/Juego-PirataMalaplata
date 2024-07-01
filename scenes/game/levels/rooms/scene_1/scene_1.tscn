@@ -93,7 +93,6 @@ texture = ExtResource("5_1gi57")
 
 [node name="Cloud9" type="Sprite2D" parent="Background"]
 position = Vector2(43.653, -106.392)
-scale = Vector2(1, 1)
 texture = ExtResource("4_ruur6")
 
 [node name="Areas" type="Node2D" parent="."]
@@ -339,7 +338,6 @@ character = NodePath("../MainCharacter")
 
 [node name="PowerUp" parent="." instance=ExtResource("22_vr6n4")]
 position = Vector2(978, 408)
-animation = &"green_bottle"
 
 [node name="PowerUp2" parent="." instance=ExtResource("22_vr6n4")]
 position = Vector2(240, 181)
