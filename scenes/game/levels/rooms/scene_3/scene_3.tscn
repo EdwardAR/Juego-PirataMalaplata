@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=3 uid="uid://b61jxfrre3kfu"]
+[gd_scene load_steps=47 format=3 uid="uid://b61jxfrre3kfu"]
 
 [ext_resource type="AudioStream" uid="uid://dfb4lvan1kwl2" path="res://assets/sounds/pirate_theme.ogg" id="1_ur28v"]
 [ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="2_e4qjl"]
@@ -12,6 +12,8 @@
 [ext_resource type="Texture2D" uid="uid://kvckyd4hsct7" path="res://ESCENA 3/PNG/Tiles_rock/tile28.png" id="10_shhia"]
 [ext_resource type="Texture2D" uid="uid://cpqrivsnbe3ii" path="res://ESCENA 3/PNG/Tiles_rock/tile34.png" id="11_gtnmg"]
 [ext_resource type="Texture2D" uid="uid://cvpb2j4iqxtpn" path="res://ESCENA 3/PNG/Background/Bright/Background.png" id="13_x67n5"]
+[ext_resource type="PackedScene" uid="uid://b5qjvfbte4svk" path="res://scenes/game/levels/objects/pickable_object/pickable_object.tscn" id="15_4rvet"]
+[ext_resource type="PackedScene" uid="uid://bnp6y3fe4kqob" path="res://scenes/game/levels/objects/damage_object/cannon/cannon.tscn" id="16_4vcp1"]
 [ext_resource type="PackedScene" uid="uid://8rbt5lmdrp0s" path="res://scenes/game/camera/camera.tscn" id="23_ub0h7"]
 [ext_resource type="PackedScene" uid="uid://b4r5aetlgjjif" path="res://scenes/game/characters/enemy_character/enemy_character.tscn" id="24_il0wb"]
 
@@ -543,3 +545,90 @@ scale = Vector2(1.21667, 0.6)
 [node name="EnemyCharacter" parent="Enemies" instance=ExtResource("24_il0wb")]
 position = Vector2(1880, 478)
 disable_mode = 1
+
+[node name="Coin" parent="." instance=ExtResource("15_4rvet")]
+position = Vector2(42, 241)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(58, 33)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(24, 1)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(48, 75)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(2, -21)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(484, 93)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(28, -1)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(-12, -24)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(818, -70)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(136, 144)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(3, -69)
+animation = "gold_coin"
+
+[node name="Coin" parent="Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin/Coin" instance=ExtResource("15_4rvet")]
+position = Vector2(612, -69)
+animation = "gold_coin"
+
+[node name="Diamond" parent="." instance=ExtResource("15_4rvet")]
+position = Vector2(44, 214)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(71, 37)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond/Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(291, 120)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond/Diamond/Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(527, -22)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond/Diamond/Diamond/Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(121, -12)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond/Diamond/Diamond/Diamond/Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(113, -55)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond/Diamond/Diamond/Diamond/Diamond/Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(121, -31)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond/Diamond/Diamond/Diamond/Diamond/Diamond/Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(343, 187)
+animation = "green_diamond"
+
+[node name="Diamond" parent="Diamond/Diamond/Diamond/Diamond/Diamond/Diamond/Diamond/Diamond" instance=ExtResource("15_4rvet")]
+position = Vector2(712, -56)
+animation = "green_diamond"
+
+[node name="Cannon" parent="." instance=ExtResource("16_4vcp1")]
+position = Vector2(706, 254)
