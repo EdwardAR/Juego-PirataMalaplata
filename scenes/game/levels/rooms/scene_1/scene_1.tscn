@@ -330,6 +330,7 @@ animation = &"green_bottle"
 [node name="MainCharacter" parent="." instance=ExtResource("15_ooixx")]
 position = Vector2(50, 496)
 
-[node name="Camera2D2" parent="." instance=ExtResource("1_8l71v")]
+[node name="Camera2D2" parent="." node_paths=PackedStringArray("character") instance=ExtResource("1_8l71v")]
 position = Vector2(317, 398)
 limit_right = 1800
+character = NodePath("../MainCharacter")
