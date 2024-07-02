@@ -49,7 +49,7 @@ bus = &"Ambient"
 position = Vector2(47, 431)
 
 [node name="Camera2D" parent="." node_paths=PackedStringArray("character") instance=ExtResource("2_2f152")]
-position = Vector2(324, 395)
+position = Vector2(329, 395)
 limit_right = 1800
 character = NodePath("../MainCharacter")
 
@@ -69,14 +69,19 @@ _path_to_scene = "res://scenes/game/levels/rooms/scene_3/scene_3.tscn"
 
 [node name="Enemies" type="Node2D" parent="."]
 
-[node name="Crabby" parent="Enemies" instance=ExtResource("4_cmc0y")]
-position = Vector2(486, 501)
-animation = "idle"
-moving_direction = "left"
-
 [node name="Crabby2" parent="Enemies" instance=ExtResource("4_cmc0y")]
-position = Vector2(626, 83)
-animation = "idle"
+position = Vector2(677, 84)
+animation = "run"
+moving_direction = "right"
+
+[node name="Crabby3" parent="Enemies" instance=ExtResource("4_cmc0y")]
+position = Vector2(554, 500)
+animation = "run"
+moving_direction = "right"
+
+[node name="Crabby4" parent="Enemies" instance=ExtResource("4_cmc0y")]
+position = Vector2(1351, 498)
+animation = "run"
 moving_direction = "right"
 
 [node name="CollectableObjects" type="Node2D" parent="."]
@@ -450,7 +455,7 @@ position = Vector2(1136, 180)
 position = Vector2(307, 593)
 
 [node name="Spikes2" parent="DamageObject" instance=ExtResource("10_upmt5")]
-position = Vector2(1, 209)
+position = Vector2(-17, 209)
 
 [node name="Spikes3" parent="DamageObject" instance=ExtResource("10_upmt5")]
 position = Vector2(1113, 593)
