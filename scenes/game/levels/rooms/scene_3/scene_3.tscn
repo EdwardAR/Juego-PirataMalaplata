@@ -1643,7 +1643,7 @@ position = Vector2(1455, 371)
 [node name="DoorChangeScene" parent="." instance=ExtResource("18_a1rwb")]
 z_index = -1
 position = Vector2(2443, 398)
-_path_to_scene = "res://scenes/game/levels/rooms/scene_3/scene_3.tscn"
+_path_to_scene = "res://scenes/game/levels/rooms/scene_4/main.tscn"
 
 [node name="MainCharacter" parent="." instance=ExtResource("2_e4qjl")]
 position = Vector2(87, 429)
