@@ -94,6 +94,7 @@ offset_top = -137.143
 offset_right = -314.908
 offset_bottom = 201.857
 scale = Vector2(2, 2)
+theme_override_font_sizes/font_size = 27
 text = "\"¡Zarpa hacia la aventura, capitán! 
 En este mundo de piratas, el tesoro y la gloria aguardan a aquellos 
 lo suficientemente valientes para desafiar los mares.
