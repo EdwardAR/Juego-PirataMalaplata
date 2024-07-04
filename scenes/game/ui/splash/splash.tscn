@@ -1,30 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://b1affhr4ts3ew"]
+[gd_scene load_steps=12 format=3 uid="uid://b1affhr4ts3ew"]
 
 [ext_resource type="Script" path="res://scenes/game/ui/splash/splash.gd" id="1_roa58"]
 [ext_resource type="Texture2D" uid="uid://bx7mty26tjhyb" path="res://assets/sprites/LittleQuest Studio.png" id="2_m8i8e"]
 [ext_resource type="Texture2D" uid="uid://b24wey0khy116" path="res://assets/sprites/logo-Endless.png" id="3_g3n3v"]
-[ext_resource type="Texture2D" uid="uid://ydvqbk5npn46" path="res://assets/sprites/Levels.png" id="4_w6x8h"]
-
-[sub_resource type="Animation" id="Animation_6pate"]
-resource_name = "do_splash"
-length = 4.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("LittleQuest:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 2, 4),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_4hex5"]
-_data = {
-"do_splash": SubResource("Animation_6pate")
-}
+[ext_resource type="Texture2D" uid="uid://dojywanh5ymkg" path="res://assets/sprites/Fondo_Historia.jpg" id="4_k4vq3"]
+[ext_resource type="FontFile" uid="uid://dregmkvncw55k" path="res://assets/fonts/press_Sstart_2p/PressStart2P-Regular.ttf" id="5_2w3wq"]
 
 [sub_resource type="Animation" id="Animation_l6svs"]
 resource_name = "do_splash"
@@ -47,17 +27,38 @@ _data = {
 "do_splash": SubResource("Animation_l6svs")
 }
 
-[sub_resource type="Animation" id="Animation_0wyjv"]
+[sub_resource type="Animation" id="Animation_6pate"]
 resource_name = "do_splash"
-length = 8.0
+length = 4.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("PixelFrog:modulate")
+tracks/0/path = NodePath("LittleQuest:modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 2, 7.9),
+"times": PackedFloat32Array(0, 2, 4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4hex5"]
+_data = {
+"do_splash": SubResource("Animation_6pate")
+}
+
+[sub_resource type="Animation" id="Animation_0wyjv"]
+resource_name = "do_splash"
+length = 10.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Historia Malaplata:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5, 10),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
@@ -72,42 +73,54 @@ _data = {
 position = Vector2(-13, -2)
 script = ExtResource("1_roa58")
 
-[node name="LittleQuest" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0)
-texture = ExtResource("2_m8i8e")
-offset = Vector2(576, 312)
-
 [node name="Endless" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
 position = Vector2(591, 315)
 texture = ExtResource("3_g3n3v")
 
-[node name="PixelFrog" type="Sprite2D" parent="."]
+[node name="LittleQuest" type="Sprite2D" parent="."]
 modulate = Color(1, 1, 1, 0)
-position = Vector2(588.5, 325)
-scale = Vector2(0.596354, 0.583333)
-texture = ExtResource("4_w6x8h")
+position = Vector2(223.304, 127)
+scale = Vector2(0.612319, 0.612319)
+texture = ExtResource("2_m8i8e")
+offset = Vector2(576, 312)
 
-[node name="Label" type="Label" parent="PixelFrog"]
-offset_left = -944.908
-offset_top = -137.143
-offset_right = -314.908
-offset_bottom = 201.857
+[node name="Historia Malaplata" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.0235294)
+position = Vector2(587, 288.5)
+scale = Vector2(0.698823, 0.700926)
+texture = ExtResource("4_k4vq3")
+
+[node name="Label" type="Label" parent="Historia Malaplata"]
+offset_left = -784.175
+offset_top = 186.182
+offset_right = 3.82477
+offset_bottom = 338.182
+grow_horizontal = 2
+grow_vertical = 2
 scale = Vector2(2, 2)
-theme_override_font_sizes/font_size = 27
-text = "\"¡Zarpa hacia la aventura, capitán! 
-En este mundo de piratas, el tesoro y la gloria aguardan a aquellos 
-lo suficientemente valientes para desafiar los mares.
- ¡Bienvenido a bordo, donde la leyenda espera ser escrita por tu mano!\""
-
-[node name="AnimationPlayerGP360" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_4hex5")
-}
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_fonts/font = ExtResource("5_2w3wq")
+theme_override_font_sizes/font_size = 16
+text = "Después de un largo viaje lleno de riquezas,
+el pirata Malaplata se ve envuelto en una
+peligrosa tormenta y  encalla en una isla que,
+tal vez, no sea tan inofensiva
+como parece a primera vista..."
+horizontal_alignment = 1
+vertical_alignment = 1
+justification_flags = 96
+metadata/_edit_use_anchors_ = true
 
 [node name="AnimationPlayerEndless" type="AnimationPlayer" parent="."]
 libraries = {
 "": SubResource("AnimationLibrary_sivst")
+}
+
+[node name="AnimationPlayerGP360" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_4hex5")
 }
 
 [node name="AnimationPixelFrog" type="AnimationPlayer" parent="."]
@@ -115,6 +128,6 @@ libraries = {
 "": SubResource("AnimationLibrary_bw8es")
 }
 
-[connection signal="animation_finished" from="AnimationPlayerGP360" to="." method="_on_animation_player_animation_finished"]
 [connection signal="animation_finished" from="AnimationPlayerEndless" to="." method="_on_animation_player_endless_animation_finished"]
+[connection signal="animation_finished" from="AnimationPlayerGP360" to="." method="_on_animation_player_animation_finished"]
 [connection signal="animation_finished" from="AnimationPixelFrog" to="." method="_on_animation_pixel_frog_animation_finished"]

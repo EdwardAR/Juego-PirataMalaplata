@@ -642,15 +642,15 @@ position = Vector2(981, 654)
 position = Vector2(1515, 654)
 
 [node name="Background" type="Sprite2D" parent="."]
-modulate = Color(0.619608, 0.486275, 0.321569, 0.752941)
+modulate = Color(0.923155, 0.806667, 0.859626, 0.8)
 z_index = -2
-position = Vector2(516.222, 347)
+position = Vector2(234.223, 347)
 scale = Vector2(2.10494, 2.10494)
 texture = ExtResource("39_r8bwr")
 
 [node name="Background2" type="Sprite2D" parent="."]
-modulate = Color(0.619608, 0.486275, 0.321569, 0.752941)
+modulate = Color(0.923155, 0.806667, 0.859626, 0.8)
 z_index = -2
-position = Vector2(1727.22, 338)
+position = Vector2(1444, 347)
 scale = Vector2(2.10494, 2.10494)
 texture = ExtResource("39_r8bwr")

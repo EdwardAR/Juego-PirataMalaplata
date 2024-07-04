@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://dtxvxaew4x65f"]
+[gd_scene load_steps=19 format=3 uid="uid://dtxvxaew4x65f"]
 
 [ext_resource type="Texture2D" uid="uid://drwbo2nxmkj58" path="res://assets/niveles/Isla/Pirate Ship/Sprites/Tilesets/Platforms (32x32).png" id="1_c2f1n"]
 [ext_resource type="Texture2D" uid="uid://b5h74lugwqn1e" path="res://assets/niveles/Isla/Pirate Ship/Sprites/Tilesets/Terrain and Back Wall (32x32).png" id="2_ntfei"]
@@ -10,7 +10,6 @@
 [ext_resource type="Texture2D" uid="uid://xjmch2w77hf8" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/additional_water.png" id="10_iuijw"]
 [ext_resource type="Texture2D" uid="uid://cg4u52161cun0" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/small_cloud_3.png" id="11_cm7j1"]
 [ext_resource type="Texture2D" uid="uid://c4mcmly0eo8in" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/background/small_cloud_2.png" id="12_twonj"]
-[ext_resource type="FontFile" uid="uid://dregmkvncw55k" path="res://assets/fonts/press_Sstart_2p/PressStart2P-Regular.ttf" id="13_lgjt7"]
 [ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="26_lllan"]
 [ext_resource type="AudioStream" uid="uid://dfb4lvan1kwl2" path="res://assets/sounds/pirate_theme.ogg" id="29_wtvof"]
 
@@ -330,31 +329,8 @@ format = 2
 
 [node name="Fondo" type="Node2D" parent="."]
 
-[node name="TextEdit" type="TextEdit" parent="."]
-offset_left = 8.0
-offset_top = 346.0
-offset_right = 417.0
-offset_bottom = 453.0
-theme_override_colors/background_color = Color(0.866667, 0.776471, 0.631373, 1)
-theme_override_colors/font_color = Color(0.847943, 0.495508, 0.25058, 1)
-theme_override_colors/font_outline_color = Color(0.00784867, 0.0339889, 0.13264, 1)
-theme_override_constants/line_spacing = 6
-theme_override_constants/outline_size = 6
-theme_override_fonts/font = ExtResource("13_lgjt7")
-theme_override_font_sizes/font_size = 10
-text = "Gracias a tu ayuda, el pirata Malaplata pudo recuperar su ansiado tesoro. 
-!Incluso un barco enorme!
-La Perla Negra"
-context_menu_enabled = false
-shortcut_keys_enabled = false
-selecting_enabled = false
-deselect_on_focus_loss_enabled = false
-drag_and_drop_selection_enabled = false
-virtual_keyboard_enabled = false
-middle_mouse_paste_enabled = false
-wrap_mode = 1
-
 [node name="MainCharacter" parent="." instance=ExtResource("26_lllan")]
+z_index = 1
 position = Vector2(-87, 503)
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -386,15 +362,31 @@ scale = Vector2(11.9972, 1.34887)
 texture = ExtResource("10_iuijw")
 
 [node name="Cloud1" type="Sprite2D" parent="Background"]
-position = Vector2(46.3473, 3.55206)
+position = Vector2(89.6386, -57.8475)
+scale = Vector2(0.669145, 0.669145)
 texture = ExtResource("11_cm7j1")
 
 [node name="Cloud2" type="Sprite2D" parent="Background"]
-position = Vector2(-64.1732, 9.13381)
+position = Vector2(-115.104, 8.11894)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("12_twonj")
 
+[node name="Cloud3" type="Sprite2D" parent="Background"]
+position = Vector2(-124.675, -61.0913)
+scale = Vector2(0.313011, 0.313011)
+texture = ExtResource("12_twonj")
+
 [node name="Cloud5" type="Sprite2D" parent="Background"]
-position = Vector2(-147.009, -71.8199)
+position = Vector2(-161.673, -66.9448)
 scale = Vector2(0.64, 0.64)
 texture = ExtResource("12_twonj")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 97.0
+offset_top = 450.0
+offset_right = 397.0
+offset_bottom = 525.0
+text = "Gracias a tu ayuda, el pirata Malaplata
+pudo recuperar su ansiado tesoro. 
+!Incluso un enorme barco!"
+horizontal_alignment = 2

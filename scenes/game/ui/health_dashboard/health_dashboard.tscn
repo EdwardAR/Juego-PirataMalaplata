@@ -102,8 +102,11 @@ script = ExtResource("1_rufnl")
 [node name="LifeBar" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 29.0
+offset_top = 13.0
+offset_right = 69.0
+offset_bottom = 53.0
+scale = Vector2(0.930292, 0.930292)
 metadata/_edit_use_anchors_ = true
 
 [node name="Left" type="TextureRect" parent="LifeBar"]
@@ -113,6 +116,7 @@ offset_right = 52.0
 offset_bottom = 40.0
 scale = Vector2(2, 2)
 texture = ExtResource("2_q6wv6")
+metadata/_edit_use_anchors_ = true
 
 [node name="Center" type="TextureRect" parent="LifeBar"]
 layout_mode = 1
@@ -121,6 +125,7 @@ offset_right = 132.0
 offset_bottom = 40.0
 scale = Vector2(2, 2)
 texture = ExtResource("3_c11lr")
+metadata/_edit_use_anchors_ = true
 
 [node name="Right" type="TextureRect" parent="LifeBar"]
 layout_mode = 1
@@ -129,6 +134,7 @@ offset_right = 212.0
 offset_bottom = 40.0
 scale = Vector2(2, 2)
 texture = ExtResource("4_r3fbm")
+metadata/_edit_use_anchors_ = true
 
 [node name="Bar" type="TextureProgressBar" parent="LifeBar"]
 layout_mode = 0
@@ -141,6 +147,7 @@ max_value = 10.0
 value = 10.0
 nine_patch_stretch = true
 texture_progress = ExtResource("5_ygykx")
+metadata/_edit_use_anchors_ = true
 
 [node name="Bomb" type="Control" parent="LifeBar"]
 layout_mode = 3
@@ -148,6 +155,7 @@ anchors_preset = 0
 offset_top = 68.0
 offset_right = 40.0
 offset_bottom = 108.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Coin" type="TextureRect" parent="LifeBar/Bomb"]
 layout_mode = 0
@@ -156,6 +164,7 @@ offset_top = -43.0
 offset_right = 79.0
 offset_bottom = 65.0
 texture = ExtResource("6_0stdc")
+metadata/_edit_use_anchors_ = true
 
 [node name="X" type="TextureRect" parent="LifeBar/Bomb"]
 layout_mode = 0
@@ -165,6 +174,7 @@ offset_right = 101.0
 offset_bottom = 49.0
 scale = Vector2(0.9, 0.9)
 texture = SubResource("AtlasTexture_jphx6")
+metadata/_edit_use_anchors_ = true
 
 [node name="Number1" type="TextureRect" parent="LifeBar/Bomb"]
 layout_mode = 0
@@ -174,6 +184,7 @@ offset_right = 150.0
 offset_bottom = 49.0
 scale = Vector2(0.9, 0.9)
 texture = SubResource("AtlasTexture_nallr")
+metadata/_edit_use_anchors_ = true
 
 [node name="Number2" type="TextureRect" parent="LifeBar/Bomb"]
 layout_mode = 0
@@ -183,6 +194,7 @@ offset_right = 192.0
 offset_bottom = 49.0
 scale = Vector2(0.9, 0.9)
 texture = SubResource("AtlasTexture_qadic")
+metadata/_edit_use_anchors_ = true
 
 [node name="Number3" type="TextureRect" parent="LifeBar/Bomb"]
 layout_mode = 0
@@ -192,15 +204,19 @@ offset_right = 234.0
 offset_bottom = 49.0
 scale = Vector2(0.9, 0.9)
 texture = SubResource("AtlasTexture_25xk4")
+metadata/_edit_use_anchors_ = true
 
 [node name="PointGroup" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
-offset_left = -40.0
-offset_bottom = 40.0
+offset_left = -56.0
+offset_top = 19.0
+offset_right = -16.0
+offset_bottom = 59.0
 grow_horizontal = 0
+scale = Vector2(0.901456, 0.901456)
 
 [node name="GoldCoin" type="Control" parent="PointGroup"]
 layout_mode = 3

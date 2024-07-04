@@ -204,35 +204,35 @@ position = Vector2(388, 419)
 animation = "gold_coin"
 
 [node name="PickableObject12" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(6, 407)
+position = Vector2(26, 400)
 animation = "gold_coin"
 
 [node name="PickableObject13" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(23, 407)
+position = Vector2(50, 400)
 animation = "gold_coin"
 
 [node name="PickableObject14" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(8, 312)
+position = Vector2(18, 302)
 animation = "gold_coin"
 
 [node name="PickableObject15" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(32, 312)
-animation = "gold_coin"
+position = Vector2(125, 239)
+animation = "red_diamond"
 
 [node name="PickableObject21" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(388, 247)
+position = Vector2(388, 238)
 animation = "gold_coin"
 
 [node name="PickableObject22" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(409, 247)
+position = Vector2(409, 238)
 animation = "gold_coin"
 
 [node name="PickableObject18" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(2, 182)
+position = Vector2(23, 176)
 animation = "gold_coin"
 
 [node name="PickableObject19" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(20, 182)
+position = Vector2(49, 176)
 animation = "gold_coin"
 
 [node name="PickableObject4" parent="Collectibles" instance=ExtResource("20_juf85")]
@@ -241,22 +241,22 @@ animation = "gold_coin"
 
 [node name="PickableObject5" parent="Collectibles" instance=ExtResource("20_juf85")]
 position = Vector2(548, 395)
-animation = "gold_coin"
+animation = "blue_diamond"
 
 [node name="PickableObject6" parent="Collectibles" instance=ExtResource("20_juf85")]
 position = Vector2(572, 395)
 animation = "gold_coin"
 
 [node name="PickableObject7" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(1024, 374)
+position = Vector2(1001, 376)
 animation = "red_diamond"
 
 [node name="PickableObject8" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(1052, 373)
+position = Vector2(1034, 364)
 animation = "red_diamond"
 
 [node name="PickableObject9" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(1086, 372)
+position = Vector2(1067, 365)
 animation = "red_diamond"
 
 [node name="RedPotion" parent="Collectibles" instance=ExtResource("20_1tp5l")]
@@ -270,15 +270,15 @@ position = Vector2(459, 471)
 animation = "blue_diamond"
 
 [node name="PickableObject16" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(304, 343)
+position = Vector2(328, 332)
 animation = "blue_diamond"
 
 [node name="PickableObject17" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(-18, 120)
-animation = "blue_diamond"
+position = Vector2(-11, 111)
+animation = "green_diamond"
 
 [node name="PickableObject23" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(629, 248)
+position = Vector2(629, 238)
 animation = "blue_diamond"
 
 [node name="PickableObject20" parent="Collectibles" instance=ExtResource("20_juf85")]
@@ -286,11 +286,11 @@ position = Vector2(523, 153)
 animation = "blue_diamond"
 
 [node name="PickableObject11" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(687, 437)
-animation = "green_diamond"
+position = Vector2(707, 400)
+animation = "red_diamond"
 
 [node name="Crabby" parent="." instance=ExtResource("18_dyrn2")]
-position = Vector2(284, 500)
+position = Vector2(302, 338)
 animation = "run"
 moving_direction = "right"
 
