@@ -330,6 +330,30 @@ format = 2
 
 [node name="Fondo" type="Node2D" parent="."]
 
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 8.0
+offset_top = 346.0
+offset_right = 417.0
+offset_bottom = 453.0
+theme_override_colors/background_color = Color(0.866667, 0.776471, 0.631373, 1)
+theme_override_colors/font_color = Color(0.847943, 0.495508, 0.25058, 1)
+theme_override_colors/font_outline_color = Color(0.00784867, 0.0339889, 0.13264, 1)
+theme_override_constants/line_spacing = 6
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("13_lgjt7")
+theme_override_font_sizes/font_size = 10
+text = "Gracias a tu ayuda, el pirata Malaplata pudo recuperar su ansiado tesoro. 
+!Incluso un barco enorme!
+La Perla Negra"
+context_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+wrap_mode = 1
+
 [node name="MainCharacter" parent="." instance=ExtResource("26_lllan")]
 position = Vector2(-87, 503)
 
@@ -374,26 +398,3 @@ texture = ExtResource("12_twonj")
 position = Vector2(-147.009, -71.8199)
 scale = Vector2(0.64, 0.64)
 texture = ExtResource("12_twonj")
-
-[node name="TextEdit" type="TextEdit" parent="."]
-offset_left = 25.0
-offset_top = 349.0
-offset_right = 434.0
-offset_bottom = 436.0
-theme_override_colors/background_color = Color(0.866667, 0.776471, 0.631373, 1)
-theme_override_colors/font_color = Color(0.847943, 0.495508, 0.25058, 1)
-theme_override_colors/font_outline_color = Color(0.00784867, 0.0339889, 0.13264, 1)
-theme_override_constants/line_spacing = 6
-theme_override_constants/outline_size = 6
-theme_override_fonts/font = ExtResource("13_lgjt7")
-theme_override_font_sizes/font_size = 13
-text = "Gracias a tu ayuda, el pirata Malaplata pudo recuperar su ansiado tesoro. 
-!Incluso un barco enorme!"
-context_menu_enabled = false
-shortcut_keys_enabled = false
-selecting_enabled = false
-deselect_on_focus_loss_enabled = false
-drag_and_drop_selection_enabled = false
-virtual_keyboard_enabled = false
-middle_mouse_paste_enabled = false
-wrap_mode = 1
