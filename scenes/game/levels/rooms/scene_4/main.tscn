@@ -660,6 +660,138 @@ animation = "blue_diamond"
 position = Vector2(321, 411)
 animation = "blue_diamond"
 
+[node name="PickableObject68" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(335, 424)
+animation = "green_diamond"
+
+[node name="PickableObject75" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(362, 423)
+animation = "green_diamond"
+
+[node name="PickableObject76" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(394, 424)
+animation = "green_diamond"
+
+[node name="PickableObject77" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(421, 423)
+animation = "green_diamond"
+
+[node name="PickableObject78" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(452, 424)
+animation = "green_diamond"
+
+[node name="PickableObject79" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(479, 423)
+animation = "green_diamond"
+
+[node name="PickableObject80" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(507, 423)
+animation = "green_diamond"
+
+[node name="PickableObject81" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(539, 424)
+animation = "green_diamond"
+
+[node name="PickableObject82" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(566, 423)
+animation = "green_diamond"
+
+[node name="PickableObject83" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(597, 424)
+animation = "green_diamond"
+
+[node name="PickableObject84" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(624, 423)
+animation = "green_diamond"
+
+[node name="PickableObject85" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(650, 424)
+animation = "green_diamond"
+
+[node name="PickableObject86" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(682, 425)
+animation = "green_diamond"
+
+[node name="PickableObject87" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(709, 424)
+animation = "green_diamond"
+
+[node name="PickableObject88" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(740, 425)
+animation = "green_diamond"
+
+[node name="PickableObject89" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(767, 424)
+animation = "green_diamond"
+
+[node name="PickableObject90" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(794, 424)
+animation = "green_diamond"
+
+[node name="PickableObject91" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(826, 425)
+animation = "green_diamond"
+
+[node name="PickableObject92" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(853, 424)
+animation = "green_diamond"
+
+[node name="PickableObject93" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(884, 425)
+animation = "green_diamond"
+
+[node name="PickableObject94" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(911, 424)
+animation = "green_diamond"
+
+[node name="PickableObject95" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(931, 423)
+animation = "green_diamond"
+
+[node name="PickableObject96" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(963, 424)
+animation = "green_diamond"
+
+[node name="PickableObject97" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(990, 423)
+animation = "green_diamond"
+
+[node name="PickableObject98" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1021, 424)
+animation = "green_diamond"
+
+[node name="PickableObject99" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1048, 423)
+animation = "green_diamond"
+
+[node name="PickableObject100" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1071, 423)
+animation = "green_diamond"
+
+[node name="PickableObject113" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1103, 424)
+animation = "green_diamond"
+
+[node name="PickableObject114" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1130, 423)
+animation = "green_diamond"
+
+[node name="PickableObject115" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1161, 424)
+animation = "green_diamond"
+
+[node name="PickableObject116" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1188, 423)
+animation = "green_diamond"
+
+[node name="PickableObject145" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1216, 424)
+animation = "green_diamond"
+
+[node name="PickableObject146" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1244, 424)
+animation = "green_diamond"
+
 [node name="PickableObject57" parent="Items" instance=ExtResource("4_n788k")]
 position = Vector2(349, 411)
 animation = "blue_diamond"
@@ -771,6 +903,82 @@ animation = "red_diamond"
 [node name="PickableObject117" parent="Items" instance=ExtResource("4_n788k")]
 position = Vector2(408, 334)
 animation = "red_diamond"
+
+[node name="PickableObject147" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(417, 351)
+animation = "silver_coin"
+
+[node name="PickableObject148" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(440, 351)
+animation = "silver_coin"
+
+[node name="PickableObject149" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(464, 353)
+animation = "silver_coin"
+
+[node name="PickableObject150" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(488, 353)
+animation = "silver_coin"
+
+[node name="PickableObject151" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(650, 353)
+animation = "silver_coin"
+
+[node name="PickableObject152" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(674, 353)
+animation = "silver_coin"
+
+[node name="PickableObject153" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(697, 352)
+animation = "silver_coin"
+
+[node name="PickableObject154" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(723, 353)
+animation = "silver_coin"
+
+[node name="PickableObject160" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(748, 353)
+animation = "silver_coin"
+
+[node name="PickableObject161" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(776, 353)
+animation = "silver_coin"
+
+[node name="PickableObject162" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(806, 353)
+animation = "silver_coin"
+
+[node name="PickableObject163" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(835, 353)
+animation = "silver_coin"
+
+[node name="PickableObject164" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(864, 353)
+animation = "silver_coin"
+
+[node name="PickableObject165" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(892, 353)
+animation = "silver_coin"
+
+[node name="PickableObject166" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(917, 355)
+animation = "silver_coin"
+
+[node name="PickableObject167" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1064, 352)
+animation = "silver_coin"
+
+[node name="PickableObject168" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1090, 353)
+animation = "silver_coin"
+
+[node name="PickableObject169" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1117, 354)
+animation = "silver_coin"
+
+[node name="PickableObject170" parent="Items" instance=ExtResource("4_n788k")]
+position = Vector2(1141, 353)
+animation = "silver_coin"
 
 [node name="PickableObject118" parent="Items" instance=ExtResource("4_n788k")]
 position = Vector2(436, 334)
