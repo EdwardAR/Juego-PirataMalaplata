@@ -14,7 +14,7 @@ config/name="Pirata MalaPlata II"
 run/main_scene="res://scenes/game/ui/splash/splash.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)
-config/icon="res://icon.svg"
+config/icon="res://IconPirata.png"
 
 [autoload]
 
