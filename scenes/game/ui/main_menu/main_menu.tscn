@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=3 uid="uid://ln85llv8md7"]
+[gd_scene load_steps=57 format=3 uid="uid://ln85llv8md7"]
 
 [ext_resource type="Script" path="res://scenes/game/ui/main_menu/main_menu.gd" id="1_g1i31"]
 [ext_resource type="AudioStream" uid="uid://d2r2pr0hr3oss" path="res://scenes/game/ui/main_menu/MainMenu.mp3" id="2_cblwh"]
@@ -13,7 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://mtxaj1q5e7ch" path="res://assets/niveles/Pantano/1 Tiles/Tileset.png" id="6_3d0hp"]
 [ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="11_4tiyj"]
 [ext_resource type="Texture2D" uid="uid://b1m2r70pwpf54" path="res://assets/niveles/Isla/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png" id="14_h7rwn"]
-[ext_resource type="Texture2D" uid="uid://b43v8lwc4nkdy" path="res://assets/niveles/Isla/Pirate Treasure/Sprites/Big Map/Folding/03.png" id="15_moyrt"]
 [ext_resource type="FontFile" uid="uid://dregmkvncw55k" path="res://assets/fonts/press_Sstart_2p/PressStart2P-Regular.ttf" id="27_eb3si"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h43hp"]
@@ -1234,14 +1233,6 @@ flat = true
 [node name="Camera2D" type="Camera2D" parent="Main"]
 visible = false
 position = Vector2(579, 325)
-
-[node name="03" type="Sprite2D" parent="."]
-position = Vector2(127, 265)
-texture = ExtResource("15_moyrt")
-
-[node name="01" type="Sprite2D" parent="."]
-position = Vector2(194, 395)
-texture = ExtResource("14_h7rwn")
 
 [connection signal="pressed" from="Main/CanvasLayer/Options/Init/Button/Button" to="." method="_on_button_pressed"]
 [connection signal="toggled" from="Main/CanvasLayer/Options/Fullscreen/CheckButton" to="." method="_on_check_button_toggled"]
