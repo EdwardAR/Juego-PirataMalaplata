@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brpaneloeqltp"
+path="res://.godot/imported/Cancion epica Victory.mp3-97c59fa8bc2916b55e77d5ebb606512f.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/Cancion epica Victory.mp3"
+dest_files=["res://.godot/imported/Cancion epica Victory.mp3-97c59fa8bc2916b55e77d5ebb606512f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

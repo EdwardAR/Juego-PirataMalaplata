@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://b1affhr4ts3ew"]
+[gd_scene load_steps=13 format=3 uid="uid://b1affhr4ts3ew"]
 
 [ext_resource type="Script" path="res://scenes/game/ui/splash/splash.gd" id="1_roa58"]
 [ext_resource type="Texture2D" uid="uid://bx7mty26tjhyb" path="res://assets/sprites/LittleQuest Studio.png" id="2_m8i8e"]
 [ext_resource type="Texture2D" uid="uid://b24wey0khy116" path="res://assets/sprites/logo-Endless.png" id="3_g3n3v"]
 [ext_resource type="Texture2D" uid="uid://dojywanh5ymkg" path="res://assets/sprites/Fondo_Historia.jpg" id="4_k4vq3"]
 [ext_resource type="FontFile" uid="uid://dregmkvncw55k" path="res://assets/fonts/press_Sstart_2p/PressStart2P-Regular.ttf" id="5_2w3wq"]
+[ext_resource type="AudioStream" uid="uid://d07ncu7n0syum" path="res://assets/sounds/Sonido mareas.mp3" id="6_glsc0"]
 
 [sub_resource type="Animation" id="Animation_l6svs"]
 resource_name = "do_splash"
@@ -50,7 +51,7 @@ _data = {
 
 [sub_resource type="Animation" id="Animation_0wyjv"]
 resource_name = "do_splash"
-length = 10.0
+length = 8.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -86,7 +87,7 @@ texture = ExtResource("2_m8i8e")
 offset = Vector2(576, 312)
 
 [node name="Historia Malaplata" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0.0235294)
+modulate = Color(1, 1, 1, 0)
 position = Vector2(587, 288.5)
 scale = Vector2(0.698823, 0.700926)
 texture = ExtResource("4_k4vq3")
@@ -113,6 +114,9 @@ vertical_alignment = 1
 justification_flags = 96
 metadata/_edit_use_anchors_ = true
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Historia Malaplata"]
+stream = ExtResource("6_glsc0")
+
 [node name="AnimationPlayerEndless" type="AnimationPlayer" parent="."]
 libraries = {
 "": SubResource("AnimationLibrary_sivst")
@@ -127,6 +131,10 @@ libraries = {
 libraries = {
 "": SubResource("AnimationLibrary_bw8es")
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_glsc0")
+autoplay = true
 
 [connection signal="animation_finished" from="AnimationPlayerEndless" to="." method="_on_animation_player_endless_animation_finished"]
 [connection signal="animation_finished" from="AnimationPlayerGP360" to="." method="_on_animation_player_animation_finished"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d07ncu7n0syum"
+path="res://.godot/imported/Sonido mareas.mp3-277fed1cd24866eb8816529b7eb7ca12.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/Sonido mareas.mp3"
+dest_files=["res://.godot/imported/Sonido mareas.mp3-277fed1cd24866eb8816529b7eb7ca12.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
