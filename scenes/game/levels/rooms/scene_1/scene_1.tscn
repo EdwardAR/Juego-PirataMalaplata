@@ -32,7 +32,7 @@ script = ExtResource("1_j3e3j")
 
 [node name="AmbientSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_dpuc2")
-volume_db = -20.331
+volume_db = -10.0
 autoplay = true
 bus = &"Ambient"
 

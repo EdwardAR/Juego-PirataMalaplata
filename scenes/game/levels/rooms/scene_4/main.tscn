@@ -1983,4 +1983,6 @@ _path_to_scene = "res://scenes/game/levels/rooms/scene_final/scene_final.tscn"
 
 [node name="AmbientSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("29_31bu5")
+volume_db = -10.0
+autoplay = true
 bus = &"Ambient"
