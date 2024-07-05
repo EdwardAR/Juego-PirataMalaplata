@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=3 uid="uid://ln85llv8md7"]
+[gd_scene load_steps=58 format=3 uid="uid://ln85llv8md7"]
 
 [ext_resource type="Script" path="res://scenes/game/ui/main_menu/main_menu.gd" id="1_g1i31"]
 [ext_resource type="AudioStream" uid="uid://d2r2pr0hr3oss" path="res://scenes/game/ui/main_menu/MainMenu.mp3" id="2_cblwh"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://capdcf608l7v2" path="res://assets/niveles/Pantano/2 Background/Layers/4.png" id="4_2b1g0"]
 [ext_resource type="Texture2D" uid="uid://b4y4paxn2nw2y" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/yellow_button/4.png" id="4_76ed7"]
 [ext_resource type="Texture2D" uid="uid://d0uycw76ah71t" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/sliders/6.png" id="4_s2jl3"]
+[ext_resource type="Texture2D" uid="uid://bpudsbuvjg35v" path="res://assets/pirata inicio.png" id="5_7amh5"]
 [ext_resource type="Texture2D" uid="uid://mtxaj1q5e7ch" path="res://assets/niveles/Pantano/1 Tiles/Tileset.png" id="6_3d0hp"]
 [ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="11_4tiyj"]
 [ext_resource type="Texture2D" uid="uid://b1m2r70pwpf54" path="res://assets/niveles/Isla/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png" id="14_h7rwn"]
@@ -428,23 +429,30 @@ bus = &"Ambient"
 [node name="Background" type="Node2D" parent="Main/World"]
 
 [node name="Background" type="Sprite2D" parent="Main/World/Background"]
-modulate = Color(0.670904, 0.632935, 0.622693, 1)
-position = Vector2(570, 263)
+modulate = Color(0.815444, 0.673864, 0.552507, 1)
+position = Vector2(570, 229)
 scale = Vector2(2.24653, 2.47531)
 texture = ExtResource("3_q77x5")
 
 [node name="4" type="Sprite2D" parent="Main/World/Background"]
-position = Vector2(585, 454)
+position = Vector2(585, 413)
 scale = Vector2(2.24653, 2.04938)
 texture = ExtResource("4_2b1g0")
 
+[node name="5" type="Sprite2D" parent="Main/World/Background"]
+position = Vector2(559, 324)
+scale = Vector2(1.95939, 2.05401)
+texture = ExtResource("5_7amh5")
+
 [node name="MainCharacter" parent="Main/World" instance=ExtResource("11_4tiyj")]
+visible = false
 position = Vector2(212, 487)
 scale = Vector2(5, 5)
 collision_layer = 2147483648
 collision_mask = 2147483648
 
 [node name="Limite" type="Node2D" parent="Main/World"]
+visible = false
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Main/World/Limite"]
 position = Vector2(43, 579)
@@ -474,6 +482,7 @@ position = Vector2(505, -88)
 shape = SubResource("RectangleShape2D_rab7k")
 
 [node name="TileMap" type="TileMap" parent="Main"]
+visible = false
 position = Vector2(256, 464)
 scale = Vector2(5, 5)
 tile_set = SubResource("TileSet_0k5rp")
