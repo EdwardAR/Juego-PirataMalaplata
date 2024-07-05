@@ -1,8 +1,8 @@
 [gd_scene load_steps=58 format=3 uid="uid://ln85llv8md7"]
 
 [ext_resource type="Script" path="res://scenes/game/ui/main_menu/main_menu.gd" id="1_g1i31"]
+[ext_resource type="AudioStream" uid="uid://d2r2pr0hr3oss" path="res://scenes/game/ui/main_menu/MainMenu.mp3" id="2_cblwh"]
 [ext_resource type="Texture2D" uid="uid://c8gbrqkb3q2ei" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/yellow_button/2.png" id="2_foa6f"]
-[ext_resource type="AudioStream" uid="uid://btstmivulu2by" path="res://assets/sounds/pirate_game_tune.ogg" id="2_gcb8x"]
 [ext_resource type="Texture2D" uid="uid://dpeemr04vg2s2" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/sliders/4.png" id="2_ifayy"]
 [ext_resource type="Texture2D" uid="uid://boj2dfl141v17" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/yellow_button/3.png" id="3_10kh6"]
 [ext_resource type="Texture2D" uid="uid://dfpvdu8l86t7s" path="res://assets/sprites/treasure_hunters/wood_and_paper_ui/sprites/sliders/5.png" id="3_ha70u"]
@@ -419,7 +419,8 @@ script = ExtResource("1_g1i31")
 [node name="Main" type="Node2D" parent="."]
 
 [node name="AmbientSound" type="AudioStreamPlayer" parent="Main"]
-stream = ExtResource("2_gcb8x")
+stream = ExtResource("2_cblwh")
+volume_db = -10.0
 autoplay = true
 bus = &"Ambient"
 
@@ -1185,6 +1186,31 @@ offset_bottom = 23.0
 theme_override_fonts/font = ExtResource("27_eb3si")
 theme_override_font_sizes/font_size = 20
 text = "Escape"
+
+[node name="Row7" type="Control" parent="Main/GameControls/Background/Texts"]
+anchors_preset = 0
+offset_left = 4.0
+offset_top = 357.0
+offset_right = 44.0
+offset_bottom = 397.0
+
+[node name="Title" type="Label" parent="Main/GameControls/Background/Texts/Row7"]
+layout_mode = 0
+offset_left = -271.0
+offset_right = -29.0
+offset_bottom = 25.0
+theme_override_fonts/font = ExtResource("27_eb3si")
+theme_override_font_sizes/font_size = 22
+text = "Bomba:"
+
+[node name="Description" type="Label" parent="Main/GameControls/Background/Texts/Row7"]
+layout_mode = 0
+offset_left = 26.0
+offset_right = 566.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("27_eb3si")
+theme_override_font_sizes/font_size = 20
+text = "Tecla B"
 
 [node name="Close" type="Control" parent="Main/GameControls/Background"]
 layout_mode = 1

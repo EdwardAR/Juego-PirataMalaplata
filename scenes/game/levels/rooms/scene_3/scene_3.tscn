@@ -1,9 +1,9 @@
 [gd_scene load_steps=44 format=3 uid="uid://b61jxfrre3kfu"]
 
-[ext_resource type="AudioStream" uid="uid://dfb4lvan1kwl2" path="res://assets/sounds/pirate_theme.ogg" id="1_ur28v"]
 [ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="2_e4qjl"]
 [ext_resource type="Texture2D" uid="uid://dokhk7k6qlwh4" path="res://ESCENA 3/PNG/Tiles_rock/tile1.png" id="3_b28gi"]
 [ext_resource type="Texture2D" uid="uid://bm5i0pe7nucac" path="res://ESCENA 3/PNG/Tiles_lava/lava_tile1.png" id="4_o5oj8"]
+[ext_resource type="AudioStream" uid="uid://d136lm3wofskm" path="res://scenes/game/levels/rooms/scene_3/Escena3.mp3" id="4_w10ms"]
 [ext_resource type="Texture2D" uid="uid://dcfmjvdyrryn4" path="res://ESCENA 3/PNG/Tiles_rock/tile29.png" id="5_gahik"]
 [ext_resource type="Texture2D" uid="uid://b8rrqfctb4r04" path="res://ESCENA 3/PNG/Tiles_rock/tile2.png" id="5_n4y0q"]
 [ext_resource type="Texture2D" uid="uid://cgq86nkkatleo" path="res://ESCENA 3/PNG/Tiles_rock/tile5.png" id="6_75hb4"]
@@ -889,7 +889,7 @@ limit_right = 2500
 character = NodePath("../MainCharacter")
 
 [node name="AmbientSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("1_ur28v")
+stream = ExtResource("4_w10ms")
 volume_db = -10.0
 autoplay = true
 bus = &"Ambient"

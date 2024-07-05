@@ -28,7 +28,7 @@
 [ext_resource type="Texture2D" uid="uid://d6fg133nc8x7" path="res://ESCENA 3/PNG/Tiles_lava/lava_tile9.png" id="22_ges73"]
 [ext_resource type="Texture2D" uid="uid://cvpb2j4iqxtpn" path="res://ESCENA 3/PNG/Background/Bright/Background.png" id="23_wmwu5"]
 [ext_resource type="PackedScene" uid="uid://brhmupxo2xjim" path="res://scenes/game/levels/objects/change_scene/door_change_scene.tscn" id="28_eugys"]
-[ext_resource type="AudioStream" uid="uid://dfb4lvan1kwl2" path="res://assets/sounds/pirate_theme.ogg" id="29_31bu5"]
+[ext_resource type="AudioStream" uid="uid://d1rqw1p870hb6" path="res://scenes/game/levels/rooms/scene_4/MonedasWin.mp3" id="29_l5ufr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lojoh"]
 texture = ExtResource("1_tjasa")
@@ -2374,7 +2374,7 @@ position = Vector2(1901, 482)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_final/scene_final.tscn"
 
 [node name="AmbientSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("29_31bu5")
+stream = ExtResource("29_l5ufr")
 volume_db = -10.0
 autoplay = true
 bus = &"Ambient"
