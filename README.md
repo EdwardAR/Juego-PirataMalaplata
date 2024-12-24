@@ -3,7 +3,10 @@
 ## Descripción
 Platformer 2D es un emocionante juego de plataformas en dos dimensiones diseñado para ofrecer una experiencia desafiante y entretenida. En el juego, los jugadores deben navegar a través de niveles llenos de obstáculos, enemigos y sorpresas, utilizando sus habilidades de salto y estrategia para avanzar.
 
-🎮 **Video demostrativo:** [Ver en YouTube](https://youtu.be/eapWQeE5Rb0)
+🎮 **Video demostrativo:**
+
+[![Ver en YouTube](https://img.youtube.com/vi/eapWQeE5Rb0/0.jpg)](https://youtu.be/eapWQeE5Rb0)
+
 
 ---
 
