@@ -7,7 +7,6 @@ Platformer 2D es un emocionante juego de plataformas en dos dimensiones diseñad
 
 [![Ver en YouTube](https://img.youtube.com/vi/eapWQeE5Rb0/0.jpg)](https://youtu.be/eapWQeE5Rb0)
 
-
 ---
 
 ## Características principales
@@ -24,4 +23,4 @@ Platformer 2D es un emocionante juego de plataformas en dos dimensiones diseñad
 
 - **Tecla de flecha izquierda/derecha:** Mover al personaje.
 - **Tecla de salto (espacio):** Saltar.
-- **Tecla de acción (configurable):** Interactuar con elementos del entorno.
+
